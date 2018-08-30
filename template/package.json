@@ -1,0 +1,70 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./build/webpack.prod.js",
+    "start": "node ./build/server.js"
+  },
+  "keywords": [],
+  "author": "{{author}}",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "fetch-jsonp": "^1.0.2",
+    "fetch-polyfill": "^0.8.2",
+    "vue": "^2.5.17"{{#router}},
+    "vue-router": "^2.0.2"{{/router}}{{#vuex}},
+    "vuex": "^2.0.0"{{/vuex}}
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "opn": "^5.1.0",
+    "post-loader": "^1.1.2",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "pug": "^2.0.0-beta6",
+    "pug-loader": "^2.3.0",
+    "request-promise": "^4.2.2",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^13.0.4",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.6",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.19.0",
+    "webpack-merge": "^4.1.0",
+    "inquirer": "^3.3.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -u . -e hao123FIS -m baidu/hao123-fe/{{name}} -c "cd baidu/hao123-fe/{{name}} && sh build.sh" -x

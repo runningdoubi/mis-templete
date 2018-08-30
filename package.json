@@ -1,0 +1,12 @@
+{
+    "name": "vue-cli-template-mis-templete",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "mis-templete",
+    "scripts": {
+      
+    },
+    "devDependencies": {
+      "vue-cli": "^2.8.1"
+    }
+  }
